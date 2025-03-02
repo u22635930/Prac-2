@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|c:\\users\\craig\\source\\repos\\craigstudygroup\\craigstudygroup\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|solutionrelative:craigstudygroup\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|c:\\users\\craig\\source\\repos\\craigstudygroup\\craigstudygroup\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|solutionrelative:craigstudygroup\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|c:\\users\\craig\\source\\repos\\craigstudygroup\\craigstudygroup\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|solutionrelative:craigstudygroup\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|c:\\users\\craig\\source\\repos\\craigstudygroup\\craigstudygroup\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1F1A1B3-E9DF-4C83-AA5D-0E0596F024F1}|CraigStudyGroup\\CraigStudyGroup.csproj|solutionrelative:craigstudygroup\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CraigStudyGroup\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CraigStudyGroup\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:29:48.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "CraigStudyGroup\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "CraigStudyGroup\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:29:02.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CraigStudyGroup\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CraigStudyGroup\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:26:02.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "student.cs",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Models\\student.cs",
+              "RelativeDocumentMoniker": "CraigStudyGroup\\Models\\student.cs",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\CraigStudyGroup\\CraigStudyGroup\\Models\\student.cs",
+              "RelativeToolTip": "CraigStudyGroup\\Models\\student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T16:24:47.721Z",
+              "EditorCaption": ""
             }
           ]
         }

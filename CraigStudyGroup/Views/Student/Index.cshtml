@@ -1,0 +1,26 @@
+﻿@model List<CraigStudyGroup.Models.Student>
+
+<h2>Study Group Members</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student Number</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentNumber</td>
+                <td>@student.Name</td>
+                <td>@student.Surname</td>
+                <td>@student.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
