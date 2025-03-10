@@ -20,6 +20,9 @@ namespace CraigStudyGroup.Models
         [EmailAddress]
         public string Email { get; set; } = string.Empty;
 
+        [Required]
+        public string MyLink { get; set; } 
+
         // Constructor
         public Student(string studentNumber, string name, string surname, string email)
         {

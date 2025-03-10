@@ -29,6 +29,24 @@
                             <a class="nav-link" asp-controller="Student" asp-action="Index">Study Group</a>
                         </li>
 
+                        <!-- Dropdown for List of People -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                List of People
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/Html/Craig.html">Craig</a></li>
+                                <li><a class="dropdown-item" href="/Html/Steyn.html">Steyn</a></li>
+                                <li><a class="dropdown-item" href="/Html/Chris.html">Chris</a></li>
+                                <li><a class="dropdown-item" href="/Html/Xander.html">Xander</a></li>
+                                <li><a class="dropdown-item" href="/Html/Nick.html">Nick</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Simple Start Sample Page -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Html/Sample.html">Simple Start Sample</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -51,3 +69,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+

@@ -9,11 +9,11 @@ namespace CraigStudyGroup.Controllers
         // Static list to hold student data (no database needed)
         private static List<Student> students = new List<Student>
         {
-            new Student("u01234567", "Craig", "Hasenjager", "u22635930@tuks.co.za"),
-            new Student("u12345678", "Steyn", "Coetzee", "12345678@tuks.co.za"),
-            new Student("u23456789", "Alice", "Steyn", "23456789@tuks.co.za"),
-            new Student("u34567890", "Bob", "Dylan", "34567890@tuks.co.za"),
-            new Student("u45678901", "Eve", "Adam", "45678901@tuks.co.za")
+            new Student { StudentNumber = "u24782646", Name = "Steyn", Surname = "Coetzee", Email = "u24782646@tuks.co.za", MyLink = "/HTML/Steyn.html" },
+            new Student { StudentNumber = "u22786989", Name = "Craig", Surname = "Hasenjager", Email = "u22786989@tuks.co.za", MyLink = "/HTML/Craig.html" },
+            new Student { StudentNumber = "u24986986", Name = "Chris", Surname = "Bailey", Email = "u24986986@tuks.co.za", MyLink = "/HTML/Chris.html" },
+            new Student { StudentNumber = "u24587568", Name = "Xander", Surname = "Steyn", Email = "u24587568@tuks.co.za", MyLink = "/HTML/Xander.html" },
+            new Student { StudentNumber = "u24523565", Name = "Nick", Surname = "Bailey", Email = "u24523565@tuks.co.za", MyLink = "/HTML/Nick.html" }
         };
 
         public IActionResult Index()
