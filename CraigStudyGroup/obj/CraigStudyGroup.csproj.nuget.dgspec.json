@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\craig\\Source\\Repos\\NewCraig\\CraigStudyGroup\\CraigStudyGroup.csproj": {}
+    "C:\\Users\\craig\\Source\\Repos\\Prac-2\\CraigStudyGroup\\CraigStudyGroup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\craig\\Source\\Repos\\NewCraig\\CraigStudyGroup\\CraigStudyGroup.csproj": {
+    "C:\\Users\\craig\\Source\\Repos\\Prac-2\\CraigStudyGroup\\CraigStudyGroup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\craig\\Source\\Repos\\NewCraig\\CraigStudyGroup\\CraigStudyGroup.csproj",
+        "projectUniqueName": "C:\\Users\\craig\\Source\\Repos\\Prac-2\\CraigStudyGroup\\CraigStudyGroup.csproj",
         "projectName": "CraigStudyGroup",
-        "projectPath": "C:\\Users\\craig\\Source\\Repos\\NewCraig\\CraigStudyGroup\\CraigStudyGroup.csproj",
+        "projectPath": "C:\\Users\\craig\\Source\\Repos\\Prac-2\\CraigStudyGroup\\CraigStudyGroup.csproj",
         "packagesPath": "C:\\Users\\craig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\craig\\Source\\Repos\\NewCraig\\CraigStudyGroup\\obj\\",
+        "outputPath": "C:\\Users\\craig\\Source\\Repos\\Prac-2\\CraigStudyGroup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

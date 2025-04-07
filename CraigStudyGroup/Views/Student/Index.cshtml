@@ -2,13 +2,15 @@
 
 <h2>Study Group Members</h2>
 
-<table class="table">
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>Student Number</th>
             <th>Name</th>
             <th>Surname</th>
             <th>Email</th>
+            <th>Profile</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -22,8 +24,35 @@
                 <td>
                     <a href="@student.MyLink" class="btn btn-primary" target="_blank">LINK</a>
                 </td>
+                <td>
+                    <button class="btn btn-danger btn-sm" onclick="removeRow(this)">Remove</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+
+
+<script>
+    function removeRow(button) {
+        var row = button.closest("tr");
+        row.remove();
+    }
+</script>
+<script>
+    function removeRow(button) {
+        var row = button.closest("tr");
+        row.remove();
+    }
+
+    // 🔴 Highlight names starting with "S"
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("tbody tr").forEach(function (row) {
+            var name = row.cells[1].innerText.trim(); // Column 2 = Name
+            if (name.startsWith("S")) {
+                row.style.color = "red";
+            }
+        });
+    });
+</script>
 
